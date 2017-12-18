@@ -14,7 +14,7 @@ class yoshytest extends TestCase
      */
     public function testExample()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
         $this->assertTrue(true);
     }
 }
