@@ -1,4 +1,6 @@
 <?php
+//Jenkins!
+
 class Sample
 {
     public function helloWorld()
