@@ -12,10 +12,10 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    public function see_header_title_is_top()
     {
-         $this->visit('public/')
-         ->see('Laravel!!');
+        $this->visit('/sample')
+            ->see('サンプルページ トップ');
     }
 }
 
