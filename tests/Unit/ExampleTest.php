@@ -12,11 +12,8 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function see_header_title_is_top()
+    public function testBasicTest()
     {
-        $this->visit('/sample')
-            ->see('サンプルページ トップ');
+        $this->assertTrue(false);
     }
 }
-
-
