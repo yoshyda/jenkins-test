@@ -7,13 +7,16 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ExampleTest extends TestCase
 {
+    require_once('./Sample.php');
+    
     /**
-     * A basic test example.
+     * Jenkns!.
      *
      * @return void
      */
     public function testBasicTest()
     {
-        $this->assertTrue(true);
+        $Sample = new Sample();
+        $this->assertEquals($Sample->helloWorld(), 'hello world!');
     }
 }
