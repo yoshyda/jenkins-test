@@ -4,10 +4,10 @@ namespace Tests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-
+require_once('./Sample.php');
+    
 class ExampleTest extends TestCase
 {
-    
     /**
      * Jenkns!.
      *
@@ -15,7 +15,7 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-		$this->assertTrue(true);
-
+        $Sample = new Sample();
+        $this->assertEquals($Sample->helloWorld(), 'hello world!');
     }
 }
