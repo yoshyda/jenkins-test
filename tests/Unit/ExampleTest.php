@@ -4,8 +4,6 @@ namespace Tests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-require_once('./Sample.php');
-
 class ExampleTest extends TestCase
 {
     /**
@@ -15,8 +13,6 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-              
-          $Sample = new Sample();
           //helloWorld()メソッドが'hello world!'と返してくれるかテスト
           $this->assertEquals(true);
     }
