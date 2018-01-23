@@ -14,7 +14,8 @@ class ExampleTest extends TestCase
      * @return void
      */
     public function testBasicTest()
-    {          
+    {
+              
           $Sample = new Sample();
           //helloWorld()メソッドが'hello world!'と返してくれるかテスト
           $this->assertEquals($Sample->helloWorld(), 'hello world!');
