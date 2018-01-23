@@ -14,7 +14,7 @@ class ExampleTest extends TestCase
      */
     public function testBasicTest()
     {
-         $this->visit('jenkins-test/public/')
+         $this->visit('public/')
          ->see('Laravel!!');
     }
 }
