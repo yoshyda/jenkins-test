@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return redirect('/test');
+Route::get('/sample', function () {
+    return view('sample');
+});
+Route::get('/sitemap', function () {
+    return 'SiteMap';
 });
