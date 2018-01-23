@@ -4,11 +4,10 @@ namespace Tests\Unit;
 
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-
+require_once('./Sample.php');
+    
 class ExampleTest extends TestCase
 {
-    require_once('./Sample.php');
-    
     /**
      * Jenkns!.
      *
