@@ -1,0 +1,8 @@
+machine:
+  timezone: Asia/Tokyo
+  php:
+    version: 7.1.9
+    
+test:
+  override:
+    - cd ./vendor/bin/phpunit;
