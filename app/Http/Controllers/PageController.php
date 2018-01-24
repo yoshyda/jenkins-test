@@ -9,7 +9,9 @@ class PageController extends Controller
     //
     public function index()
     {
-        //エラーページを返却する
-        App::abort(404);
+        $date = 'test';
+        return view('welcome')->with('date',$date);
+        //繧ｨ繝ｩ繝ｼ繝壹�ｼ繧ｸ繧定ｿ泌唆縺吶ｋ
+        //App::abort(404);
     }
 }
