@@ -15,4 +15,4 @@
     return view('welcome');
 });
 */
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'PageController@index');
