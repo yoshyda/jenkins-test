@@ -9,6 +9,7 @@ class PageController extends Controller
     //
     public function index()
     {
-        //
+        //エラーページを返却する
+        App::abort(404);
     }
 }
